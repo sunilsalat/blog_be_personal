@@ -1,0 +1,42 @@
+[{
+  "_id":"661267921e576b150a4bdd05",
+  "name": "Sport",
+  "icon": "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712482193/syiiikvacwqhdcfp5rwh.png"
+
+},
+{
+  "_id": "66127786498a3682011d608e",
+  "name": "Music",
+  "icon": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ACircle-icons-image.svg&psig=AOvVaw1LnmiWydI-cHyuU-5gOwkY&ust=1712572310910000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDj5pPzr4UDFQAAAAAdAAAAABAE"
+ 
+},
+
+{
+  "_id":"66127786498a3682011d6090",
+  "name": "Cooking",
+  "icon": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ACircle-icons-image.svg&psig=AOvVaw1LnmiWydI-cHyuU-5gOwkY&ust=1712572310910000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDj5pPzr4UDFQAAAAAdAAAAABAE"
+
+},
+{
+  "_id": "66127786498a3682011d6091",
+  "name": "Travel",
+  "icon": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ACircle-icons-image.svg&psig=AOvVaw1LnmiWydI-cHyuU-5gOwkY&ust=1712572310910000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDj5pPzr4UDFQAAAAAdAAAAABAE"
+ 
+},
+{
+  "_id":"6612c05249a2250ba9e20de0",
+  "name": "Education",
+  "icon": "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712504914/ccowndkdf3hrz2skydpc.png"
+ 
+},
+{
+  "_id":  "6612c05e49a2250ba9e20de2",
+  "name": "Cooking",
+  "icon": "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712504926/pkk1yduk7rw5sdkx2ii0.png"
+ 
+},
+{
+  "_id":"6612c06b49a2250ba9e20de4",
+  "name": "Development",
+  "icon": "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712504939/enh1eajwnetfqcfumy3a.png"
+}]

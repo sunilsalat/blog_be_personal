@@ -1,0 +1,83 @@
+[{
+  "_id": "6612c5667ae409ec927f466a",
+  "createdByUser": "66128b4297f5edfa5bad2111",
+  "title": "Blog 1",
+  "description": "Description",
+  "categoryId":  "661267921e576b150a4bdd05",
+  "totalLikes": 0,
+  "totalComments": 0,
+  "tags": [],
+  "images": [
+    "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712506214/frcutcxamwojwbr99598.jpg"
+  ],
+  "isApprovedByAdmin": true,
+  "likes": [],
+  "comments": []
+
+},
+{
+  "_id": "6612c57f7ae409ec927f4673",
+  "createdByUser": "66128b4297f5edfa5bad2111",
+  "title": "Blog 2",
+  "description": "Description",
+  "categoryId":  "66127786498a3682011d608e",
+  "totalLikes": 0,
+  "totalComments": 0,
+  "tags": [],
+  "images": [
+    "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712506239/ski7urohfjkuqo6destx.png"
+  ],
+  "isApprovedByAdmin": true,
+  "likes": [],
+  "comments": []
+},
+{
+  "_id": "6612c5977ae409ec927f467c",
+  "createdByUser":"66128b4297f5edfa5bad2111",
+  "title": "Blog 3",
+  "description": "Desciption",
+  "categoryId": "66127786498a3682011d608f",
+  "totalLikes": 0,
+  "totalComments": 0,
+  "tags": [],
+  "images": [
+    "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712506264/gcvtmwfsciszlvv1rrnl.png"
+  ],
+  "isApprovedByAdmin": true,
+  "likes": [],
+  "comments": []
+ 
+},
+{
+  "_id": "6612c5cc7ae409ec927f4685",
+  "createdByUser":  "66128b4297f5edfa5bad2111",
+  "title": "Blog 4",
+  "description": "Description",
+  "categoryId": "66127786498a3682011d608f",
+  "totalLikes": 0,
+  "totalComments": 0,
+  "tags": [],
+  "images": [
+    "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712506316/j6ystqqdb5qkgrm1eo80.png"
+  ],
+  "isApprovedByAdmin": true,
+  "likes": [],
+  "comments": []
+},
+{
+  "_id":  "6612c5e37ae409ec927f468e",
+  "createdByUser": "66128b4297f5edfa5bad2111",
+  "title": "Blog 6",
+  "description": "Descritpion",
+  "categoryId":"66127786498a3682011d6090",
+  "totalLikes": 0,
+  "totalComments": 0,
+  "tags": [],
+  "images": [
+    "http://res.cloudinary.com/dmvc5ugir/image/upload/v1712506340/nfh6azgsfxngjox6cf1e.jpg"
+  ],
+  "isApprovedByAdmin": true,
+  "likes": [],
+  "comments": []
+
+}]

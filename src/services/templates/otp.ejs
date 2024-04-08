@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROMED 8.0 🏥</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        .body{
+            font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+        }
+        .h3 {
+            font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+        }
+    </style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body
+    style="background-image: url('https://proact-services-dev.s3.me-south-1.amazonaws.com/super-admin/mail-template-assets/backgroung_proact.png.png'); background-size: cover;background-repeat: no-repeat; height: 100%;">
+    <div id="email"
+        style="display:flex; flex-direction: column; align-items: center ;font-family: Roboto;height: 58vh;">
+        <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+            <tr>
+                <td align="center" valign="top">
+                    <table border="0" cellpadding="20" cellspacing="0" width="600" id="emailContainer">
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailHeader">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fblogging%2F&psig=AOvVaw1IwactHaiI0nX7QVYy8GzQ&ust=1712562360128000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIicyovOr4UDFQAAAAAdAAAAABAE"
+                                                alt="blog_app">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailBody">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <h3 style="font-family: Roboto;font-weight: 400;font-size: 22px;">Your
+                                                PROMED verification code is: <%=otp%>
+                                            </h3>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooter">
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <div
+                                                style="width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 18px;">
+                                                <span
+                                                    style="margin: 0px 5px 0px 0px;font-family: 'Roboto';font-size: 18px;">Powered
+                                                    by blog app,
+                                                    Kuwait</span>
+                                                <img src="https://proact-services-dev.s3.me-south-1.amazonaws.com/super-admin/mail-template-assets/Logo.png"
+                                                    alt="promed"
+                                                    style="width: 100%; height: 100%; max-width: 55px; max-height: 64px;width: 23%;">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

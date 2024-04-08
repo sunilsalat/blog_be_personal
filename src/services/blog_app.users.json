@@ -1,0 +1,19 @@
+[{
+  "_id": 
+     "6612c38a974907da0d1b2fa1"
+  ,
+  "name": "admin",
+  "email": "admin@yopmail.com",
+  "role": "ADMIN",
+  "password": "$2a$10$csYVUvotEYsl9oPDoE0FzeJAXaGdERfHs3OxX/90LUq4dS/lzL7ve",
+  "isActive": true
+},
+{
+  "_id":  "6612c39b974907da0d1b2fa6",
+  "name": "user",
+  "email": "user@yopmail.com",
+  "role": "USER",
+  "password": "$2a$10$g7oOCa4zk6A2d5Cgo/.NpOvRSwfhIh9h.0Scrgl47TPXLecdP1LlS",
+  "isActive": true
+ 
+}]
