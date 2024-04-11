@@ -25,7 +25,7 @@ export const AuthMiddleware = async (
 
         const data: any = common.verifyPayload(refresh_token);
         const { id, name, email, role, refreshTokenDb } = data;
-        const token:any = await DaToken.read({ userId: id });
+        const token: any = await DaToken.read({ userId: id });
         if (!token || !token.is_valid) {
             throw new NotAuthorize("Not Authorize to access page!");
         }
@@ -48,9 +48,10 @@ export const AuthMiddleware = async (
 export const isAllowed = (roles: string[]) => {
     return (req: Request, res: Response, next: NextFunction) => {
         const { id, name, email, role } = req.userInfo;
-        console.log(role)
         if (!roles.includes(role)) {
-            throw new NotAuthorize("You dont have right to perform this action");
+            throw new NotAuthorize(
+                "You dont have right to perform this action"
+            );
         }
         next();
     };

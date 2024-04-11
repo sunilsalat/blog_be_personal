@@ -1,19 +1,17 @@
 import mongoose from "mongoose";
 
-const CategorySchema = new mongoose.Schema({
-    name: {
-        type: String,
-        // enum:['Technical', 'Food', 'Travel', 'Education', "Sports", "Music",'Gaming']}
-        required:[true, 'Name is required']
+const CategorySchema = new mongoose.Schema(
+    {
+        name: {
+            type: String,
+            required: [true, "Name is required"],
+        },
+        icon: {
+            type: String,
+            required: [true, "Icon is required"],
+        },
     },
-    icon:{
-        type:String, 
-        required:[true, "Icon is required"]
-    }
-
-}, {timestamps:true});
-
-
-
+    { timestamps: true }
+);
 
 export const Category = mongoose.model("Category", CategorySchema);
